@@ -68,16 +68,22 @@ const PricingSection: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0A2463] font-poppins mb-4">
-            Transparent Pricing
+            Choose Your Investment Level
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            No hidden costs, no monthly fees. Pay once, own forever.
-          </p>
+          <div className="max-w-4xl mx-auto space-y-4 mb-8">
+            <p className="text-xl text-gray-600 leading-relaxed">
+              Whether you prefer complete ownership with a one-time investment or the flexibility of monthly payments, 
+              we have options that work for your hotel's budget and preferences.
+            </p>
+            <p className="text-lg text-gray-500">
+              All plans include the same high-quality design and development—just choose the payment structure that fits your business model.
+            </p>
+          </div>
           
           {/* Trust Badge */}
           <div className="inline-flex items-center space-x-2 bg-green-50 text-green-700 px-4 py-2 rounded-full border border-green-200">
             <Shield className="w-5 h-5" />
-            <span className="font-medium">100% Money Back Guarantee</span>
+            <span className="font-medium">Pay Only When 100% Satisfied</span>
           </div>
         </div>
 
@@ -86,7 +92,7 @@ const PricingSection: React.FC = () => {
           {plans.map((plan, index) => (
             <div
               key={index}
-              className={`relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border ${
+              className={`relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-2 ${
                 plan.popular ? 'border-[#FFD700] ring-2 ring-[#FFD700]/20' : 'border-gray-200'
               }`}
             >
@@ -106,7 +112,7 @@ const PricingSection: React.FC = () => {
                   <h3 className="text-2xl font-bold text-[#0A2463] mb-2 font-poppins">
                     {plan.name}
                   </h3>
-                  <p className="text-gray-600 mb-4">
+                  <p className="text-gray-600 mb-6 leading-relaxed">
                     {plan.description}
                   </p>
                   <div className="flex items-baseline justify-center">
@@ -136,10 +142,10 @@ const PricingSection: React.FC = () => {
                 {/* CTA Button */}
                 <button className={`w-full py-4 px-6 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 ${
                   plan.popular
-                    ? 'bg-gradient-to-br from-[#0A2463] to-[#5FBDB0] text-white hover:shadow-lg'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                    ? 'bg-gradient-to-br from-[#0A2463] to-[#5FBDB0] text-white hover:shadow-lg shadow-md'
+                    : 'bg-gradient-to-br from-gray-100 to-gray-50 text-gray-700 hover:bg-gradient-to-br hover:from-gray-200 hover:to-gray-100 border border-gray-200'
                 }`}>
-                  {plan.name === 'Enterprise' ? 'Contact Us' : 'Get Started'}
+                  {plan.name === 'Complete Solution' ? 'Get Custom Quote' : 'Choose This Plan'}
                 </button>
               </div>
             </div>
@@ -149,26 +155,39 @@ const PricingSection: React.FC = () => {
         {/* No Surprises Guarantee */}
         <div className="bg-gradient-to-r from-[#0A2463] to-[#5FBDB0] rounded-2xl p-8 text-white text-center">
           <Shield className="w-12 h-12 mx-auto mb-6 text-[#FFD700]" />
-          <h3 className="text-2xl md:text-3xl font-bold mb-4 font-poppins">
-            Flexible Payment & No Contracts
+          <h3 className="text-2xl md:text-3xl font-bold mb-6 font-poppins">
+            Our Commitment to Your Success
           </h3>
-          <div className="grid md:grid-cols-3 gap-6 text-center">
+          <p className="text-lg text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
+            We believe in earning your trust through results, not contracts. That's why we offer flexible payment options 
+            and guarantee your satisfaction before any payment is required.
+          </p>
+          <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
-              <h4 className="font-bold mb-2">No Advance Payment</h4>
-              <p className="text-blue-100 text-sm">
+              <div className="w-16 h-16 bg-[#FFD700] rounded-full flex items-center justify-center mx-auto mb-4">
+                <Shield className="w-8 h-8 text-[#0A2463]" />
+              </div>
+              <h4 className="font-bold mb-3 text-lg">No Advance Payment Required</h4>
+              <p className="text-blue-100 text-sm leading-relaxed">
                 Pay only when your website is ready and you're completely satisfied.
               </p>
             </div>
             <div>
-              <h4 className="font-bold mb-2">No Long-term Contracts</h4>
-              <p className="text-blue-100 text-sm">
-                All monthly offerings with no hidden commitments. Cancel anytime.
+              <div className="w-16 h-16 bg-[#FFD700] rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-[#0A2463] font-bold text-xl">∞</span>
+              </div>
+              <h4 className="font-bold mb-3 text-lg">Unlimited Revisions</h4>
+              <p className="text-blue-100 text-sm leading-relaxed">
+                We make as many adjustments as needed during the design phase until you're satisfied.
               </p>
             </div>
             <div>
-              <h4 className="font-bold mb-2">Unlimited Revisions</h4>
-              <p className="text-blue-100 text-sm">
-                We make as many adjustments as needed until you're satisfied.
+              <div className="w-16 h-16 bg-[#FFD700] rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-[#0A2463] font-bold text-xl">✓</span>
+              </div>
+              <h4 className="font-bold mb-3 text-lg">Flexible Payment Options</h4>
+              <p className="text-blue-100 text-sm leading-relaxed">
+                Choose one-time payment for ownership or monthly subscriptions with no long-term contracts.
               </p>
             </div>
           </div>
@@ -176,15 +195,21 @@ const PricingSection: React.FC = () => {
 
         {/* FAQ Preview */}
         <div className="mt-16 text-center">
-          <h3 className="text-2xl font-bold text-[#0A2463] mb-4 font-poppins">
-            Choose a Partner You Can Count On
+          <h3 className="text-2xl font-bold text-[#0A2463] mb-6 font-poppins">
+            Ready to Transform Your Hotel's Digital Presence?
           </h3>
-          <p className="text-gray-600 mb-6">
-            Our clients stay with us because of quality, transparency, and results—not contractual obligations.
+          <p className="text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
+            Join 200+ hotels that have chosen StayTech for their digital transformation. 
+            Our clients stay with us because of quality, transparency, and measurable results.
           </p>
-          <button className="bg-[#FFD700] text-[#0A2463] px-8 py-3 rounded-lg font-semibold hover:bg-[#FFD700]/90 transition-colors">
-            Start Your Project Today
-          </button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="#contact" className="bg-[#FFD700] text-[#0A2463] px-8 py-4 rounded-lg font-semibold hover:bg-[#FFD700]/90 transition-colors transform hover:scale-105 text-center">
+              Start Your Project Today
+            </a>
+            <a href="#contact" className="bg-white border-2 border-[#0A2463] text-[#0A2463] px-8 py-4 rounded-lg font-semibold hover:bg-[#0A2463] hover:text-white transition-colors text-center">
+              Schedule Free Consultation
+            </a>
+          </div>
         </div>
       </div>
     </section>
