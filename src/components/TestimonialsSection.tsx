@@ -4,7 +4,7 @@ import { Star, Quote } from 'lucide-react';
 const TestimonialsSection: React.FC = () => {
   const testimonials = [
     {
-      name: 'Rajesh Gupta',
+      name: 'Aarav Sharma',
       position: 'Owner, Heritage Palace Hotel',
       location: 'Jaipur, Rajasthan',
       image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300',
@@ -13,7 +13,7 @@ const TestimonialsSection: React.FC = () => {
       results: '40% increase in direct bookings'
     },
     {
-      name: 'Priya Menon',
+      name: 'Rohan Iyer',
       position: 'General Manager, Coastal Resort',
       location: 'Goa',
       image: 'https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=300',
@@ -22,7 +22,7 @@ const TestimonialsSection: React.FC = () => {
       results: 'Seamless booking experience'
     },
     {
-      name: 'Amit Kumar',
+      name: 'Priya Nair',
       position: 'Director, Urban Hotel Chain',
       location: 'Mumbai, Maharashtra',
       image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300',
@@ -31,7 +31,7 @@ const TestimonialsSection: React.FC = () => {
       results: 'Saved thousands in monthly fees'
     },
     {
-      name: 'Sneha Patel',
+      name: 'Ananya Rao',
       position: 'Owner, Mountain Retreat',
       location: 'Shimla, Himachal Pradesh',
       image: 'https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=300',
