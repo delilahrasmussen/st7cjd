@@ -54,7 +54,7 @@ const FlexiblePlansSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section id="flexible-plans" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Enhanced Header with Gradient Background */}
         <div className="relative mb-16 overflow-hidden">
