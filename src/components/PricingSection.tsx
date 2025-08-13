@@ -11,7 +11,10 @@ const PricingSection: React.FC = () => {
       features: [
         '1-Year Hosting & Maintenance',
         'Six Updates (Year 1)',
-        'Unlimited Pages',
+        'Logo Design Included',
+        'Brochure Design',
+        'Content Writing',
+        'Up to 12 Pages',
         'Mobile Responsive Design',
         'SEO Optimization',
         'SSL Certificate Included',
@@ -28,6 +31,7 @@ const PricingSection: React.FC = () => {
       description: 'Bespoke website design + integrated booking engine',
       features: [
         'Everything in Website Design',
+        'Up to 24 Pages',
         'Integrated Booking Engine',
         'Real-time Availability System',
         'Secure Payment Processing',
