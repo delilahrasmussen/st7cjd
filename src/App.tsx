@@ -10,7 +10,6 @@ import AboutSection from './components/AboutSection';
 import PricingSection from './components/PricingSection';
 import TestimonialsSection from './components/TestimonialsSection';
 import ContactSection from './components/ContactSection';
-import FAQSection from './components/FAQSection';
 import Footer from './components/Footer';
 import SmartDesignOptions from './components/SmartDesignOptions';
 import FlexiblePlansSection from './components/FlexiblePlansSection';
@@ -113,7 +112,6 @@ function App() {
       <AboutSection />
       <TestimonialsSection />
       <ContactSection />
-      <FAQSection />
       <Footer />
     </div>
   );
