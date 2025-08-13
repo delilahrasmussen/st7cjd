@@ -181,15 +181,15 @@ const Hero: React.FC = () => {
           <div className="mt-8 flex flex-wrap justify-center items-center gap-6 text-blue-200 text-sm animate-fadeIn delay-500 text-center">
             <div className="flex items-center space-x-2">
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-              <span>200+ Hotels Served</span>
+              <span>Hospitality Experts</span>
             </div>
             <div className="flex items-center space-x-2">
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-              <span>15+ Countries</span>
+              <span>Built for Bookings</span>
             </div>
             <div className="flex items-center space-x-2">
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-              <span>IIT Graduate Team</span>
+              <span>Your ROI, Our Goal</span>
             </div>
           </div>
         </div>
