@@ -1,7 +1,104 @@
 import React from 'react';
-import { Users, Award, Clock, MapPin } from 'lucide-react';
+import { Users, Award, Clock, MapPin, Plus, Minus } from 'lucide-react';
 
 const AboutSection: React.FC = () => {
+  const [openFAQ, setOpenFAQ] = React.useState<number | null>(null);
+
+  const toggleFAQ = (index: number) => {
+    setOpenFAQ(openFAQ === index ? null : index);
+  };
+
+  const faqData = [
+    {
+      category: "About StayTech",
+      questions: [
+        {
+          question: "What is StayTech Hospitality Solutions?",
+          answer: "StayTech Hospitality Solutions is a specialized hotel website design agency that helps hotels increase direct bookings and reduce reliance on Online Travel Agencies (OTAs) through professional web solutions. We are founded by IIT graduates and recognized among the world's top 50 digital marketing agencies for hotels."
+        },
+        {
+          question: "What makes StayTech different from other web design agencies?",
+          answer: "We specialize exclusively in the hospitality industry, offering deep expertise in hotel booking conversion optimization. Our unique approach includes a 'Pay Only When 100% Satisfied' policy, no advance payments, unlimited revisions during the design phase, and dedicated project managers for every client. We build every project from scratch using modern technologies for optimal performance and security."
+        },
+        {
+          question: "What kind of hotels does StayTech work with?",
+          answer: "We work with a wide range of hotels, including luxury hotels, boutique hotels, resorts, and budget hotels, across 15+ countries. Our solutions are tailored to suit the unique needs of each property."
+        }
+      ]
+    },
+    {
+      category: "Our Services",
+      questions: [
+        {
+          question: "What services does StayTech offer?",
+          answer: "We offer a comprehensive suite of digital solutions including custom Web Design, integrated Booking Engine solutions, SEO Optimization, Web Redesign services, Hotel Property Management Systems (PMS), and Analytics services."
+        },
+        {
+          question: "Do you offer custom website design?",
+          answer: "Yes, we offer fully custom website designs (Signature plan) tailored to your brand, vision, and guest experience. We also provide template-based (Essence plan) and hybrid (Elevate plan) options that can be extensively customized."
+        },
+        {
+          question: "Can I choose a template and customize it?",
+          answer: "Absolutely! You can choose from our collection of 12+ fully functional hotel website templates as a starting point. Every element—colors, fonts, content, images, features, and layout—can be fully customized to match your brand perfectly."
+        },
+        {
+          question: "Do you integrate booking engines? Which ones?",
+          answer: "Yes, we integrate commission-free booking engines designed to maximize your direct reservations. Our booking engines support real-time availability, secure payment processing, and are mobile-optimized. We can integrate with various PMS and Channel Managers."
+        }
+      ]
+    },
+    {
+      category: "Pricing & Payment",
+      questions: [
+        {
+          question: "What is your pricing model?",
+          answer: "We offer flexible pricing plans: One-time payment for complete ownership of your website, Annual plans for ongoing support, hosting, and maintenance, and Monthly subscriptions with no upfront costs and the flexibility to cancel anytime."
+        },
+        {
+          question: "Do you require an upfront payment?",
+          answer: "No, we do not require any advance payment. You only pay once your website is fully built, tested, and you are 100% satisfied with the result."
+        },
+        {
+          question: "What is the 'Pay Only When 100% Satisfied' policy?",
+          answer: "This policy means we begin work on your website without any upfront payment. We deliver the complete, functional website, and you only make the payment once you are fully satisfied with the final product. This includes unlimited revisions during the design phase."
+        }
+      ]
+    },
+    {
+      category: "Process & Delivery",
+      questions: [
+        {
+          question: "What is StayTech's website design process?",
+          answer: "Our process involves 7 key steps: Discovery & Strategy, Design Plan Selection, Design & User Experience, Development, Quality Assurance & Testing, Launch & Deployment, and Ongoing Support & Optimization (for relevant plans)."
+        },
+        {
+          question: "How long does it take to build a website?",
+          answer: "We aim for fast delivery, with many projects completed within 7 days, especially for template-based designs. The exact timeline depends on the complexity and scope of your project."
+        },
+        {
+          question: "Do you offer revisions?",
+          answer: "Yes, we offer unlimited revisions during the design phase to ensure the final product perfectly aligns with your vision and business goals."
+        }
+      ]
+    },
+    {
+      category: "Technical Aspects",
+      questions: [
+        {
+          question: "Are your websites mobile-friendly?",
+          answer: "Yes, all our websites are built with a mobile-first approach, ensuring perfect optimization and a seamless experience across all devices, including smartphones, tablets, and desktops."
+        },
+        {
+          question: "Are your websites SEO optimized?",
+          answer: "Yes, our websites are built with SEO best practices in mind, including semantic HTML structure, meta tags, alt tags for images, and clean URL structures to help your hotel rank higher on search engines."
+        },
+        {
+          question: "Do you provide hosting and maintenance?",
+          answer: "Yes, hosting and maintenance are included in our annual and monthly plans. For one-time payment plans, 1-year hosting and maintenance are included, with an annual fee thereafter."
+        }
+      ]
+    }
+  ];
   const stats = [
     { icon: <Users className="w-6 h-6" />, number: '200+', label: 'Hotels Served' },
     { icon: <Award className="w-6 h-6" />, number: '5.0', label: 'Average Rating' },
@@ -86,7 +183,7 @@ const AboutSection: React.FC = () => {
           {/* Right Image */}
           <div className="relative">
             <img
-              src="/src/assets/team-photo.png"
+              src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800"
               alt="Team working"
               className="rounded-2xl shadow-2xl"
             />
@@ -327,6 +424,80 @@ const AboutSection: React.FC = () => {
           </div>
         </div>
 
+        {/* FAQ Section */}
+        <div className="mt-20">
+          <div className="text-center mb-16">
+            <h3 className="text-2xl md:text-3xl font-bold text-[#0A2463] font-poppins mb-4">
+              Frequently Asked Questions
+            </h3>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Get answers to common questions about our services, process, and pricing.
+            </p>
+          </div>
+
+          <div className="max-w-4xl mx-auto space-y-8">
+            {faqData.map((category, categoryIndex) => (
+              <div key={categoryIndex} className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 shadow-lg border border-gray-100">
+                <h4 className="text-xl font-bold text-[#0A2463] mb-6 font-poppins border-b border-gray-200 pb-3">
+                  {category.category}
+                </h4>
+                <div className="space-y-4">
+                  {category.questions.map((faq, faqIndex) => {
+                    const globalIndex = categoryIndex * 10 + faqIndex; // Unique index across all FAQs
+                    const isOpen = openFAQ === globalIndex;
+                    
+                    return (
+                      <div key={faqIndex} className="border border-gray-200 rounded-xl overflow-hidden">
+                        <button
+                          onClick={() => toggleFAQ(globalIndex)}
+                          className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors focus:outline-none focus:ring-2 focus:ring-[#0A2463]/20"
+                        >
+                          <span className="font-semibold text-[#0A2463] pr-4">
+                            {faq.question}
+                          </span>
+                          <div className="flex-shrink-0">
+                            {isOpen ? (
+                              <Minus className="w-5 h-5 text-[#5FBDB0]" />
+                            ) : (
+                              <Plus className="w-5 h-5 text-[#5FBDB0]" />
+                            )}
+                          </div>
+                        </button>
+                        <div className={`transition-all duration-300 ease-in-out ${
+                          isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+                        } overflow-hidden`}>
+                          <div className="px-6 pb-4 text-gray-600 leading-relaxed">
+                            {faq.answer}
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* FAQ CTA */}
+          <div className="mt-12 text-center">
+            <div className="bg-gradient-to-r from-[#0A2463] to-[#5FBDB0] rounded-2xl p-8 text-white">
+              <h4 className="text-2xl font-bold mb-4 font-poppins">
+                Still Have Questions?
+              </h4>
+              <p className="text-lg text-blue-100 mb-6 max-w-2xl mx-auto">
+                Our team is here to help! Get in touch for personalized answers about your hotel's specific needs.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#contact" className="bg-[#FFD700] text-[#0A2463] px-8 py-4 rounded-lg font-semibold hover:bg-[#FFD700]/90 transition-colors transform hover:scale-105 text-center">
+                  Contact Our Team
+                </a>
+                <a href="tel:+919310495471" className="bg-white/10 backdrop-blur-md text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/20 transition-colors border border-white/20 text-center">
+                  Call +91 9310495471
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* Location */}
         <div className="mt-20 bg-gradient-to-r from-[#0A2463] to-[#5FBDB0] rounded-2xl p-8 text-white text-center">
           <MapPin className="w-8 h-8 mx-auto mb-4 text-[#FFD700]" />
