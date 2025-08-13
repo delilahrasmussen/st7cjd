@@ -141,7 +141,7 @@ const FAQSection: React.FC = () => {
               >
                 {category.category}
                 <ChevronDown
-                  className={`w-6 h-6 transition-transform ${
+                  className={\`w-6 h-6 transition-transform ${
                     openCategory === category.category ? 'rotate-180' : ''
                   }`}
                 />
@@ -156,7 +156,7 @@ const FAQSection: React.FC = () => {
                       >
                         {faq.q}
                         <PlusCircle
-                          className={`w-5 h-5 text-[#5FBDB0] transition-transform ${
+                          className={\`w-5 h-5 text-[#5FBDB0] transition-transform ${
                             openQuestion === qIndex ? 'rotate-45' : ''
                           }`}
                         />
