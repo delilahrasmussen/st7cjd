@@ -1,0 +1,94 @@
+## Frequently Asked Questions (FAQ)
+
+### About StayTech
+
+**Q: What is StayTech Hospitality Solutions?**
+A: StayTech Hospitality Solutions is a specialized hotel website design agency that helps hotels increase direct bookings and reduce reliance on Online Travel Agencies (OTAs) through professional web solutions. We are founded by IIT graduates and recognized among the world's top 50 digital marketing agencies for hotels.
+
+**Q: What makes StayTech different from other web design agencies?**
+A: We specialize exclusively in the hospitality industry, offering deep expertise in hotel booking conversion optimization. Our unique approach includes a "Pay Only When 100% Satisfied" policy, no advance payments, unlimited revisions during the design phase, and dedicated project managers for every client. We build every project from scratch using modern technologies for optimal performance and security.
+
+**Q: What kind of hotels does StayTech work with?**
+A: We work with a wide range of hotels, including luxury hotels, boutique hotels, resorts, and budget hotels, across 15+ countries. Our solutions are tailored to suit the unique needs of each property.
+
+### Our Services
+
+**Q: What services does StayTech offer?**
+A: We offer a comprehensive suite of digital solutions including custom Web Design, integrated Booking Engine solutions, SEO Optimization, Web Redesign services, Hotel Property Management Systems (PMS), and Analytics services.
+
+**Q: Do you offer custom website design?**
+A: Yes, we offer fully custom website designs (Signature plan) tailored to your brand, vision, and guest experience. We also provide template-based (Essence plan) and hybrid (Elevate plan) options that can be extensively customized.
+
+**Q: Can I choose a template and customize it?**
+A: Absolutely! You can choose from our collection of 12+ fully functional hotel website templates as a starting point. Every element—colors, fonts, content, images, features, and layout—can be fully customized to match your brand perfectly.
+
+**Q: Do you integrate booking engines? Which ones?**
+A: Yes, we integrate commission-free booking engines designed to maximize your direct reservations. Our booking engines support real-time availability, secure payment processing, and are mobile-optimized. We can integrate with various PMS and Channel Managers.
+
+**Q: Do you provide SEO services?**
+A: Yes, SEO Optimization is a core service. We focus on improving your hotel's visibility in Google search results through keyword research, local SEO (including Google My Business optimization), technical SEO, and performance tracking. Basic SEO is included in all our packages.
+
+**Q: What is included in your web redesign service?**
+A: Our web redesign service transforms outdated websites into modern, high-converting platforms. This includes a modern design, mobile-first responsiveness, speed optimization (under 3 seconds load time), improved user experience, SEO optimization, and integrated booking systems.
+
+**Q: Do you offer Property Management System (PMS) solutions?**
+A: Yes, we offer complete Hotel PMS solutions. Our PMS integrates room management, guest management, revenue management, and analytics into one intuitive platform to streamline your hotel operations. This is typically part of our "Complete Solution" package.
+
+**Q: What kind of analytics do you provide?**
+A: Our analytics service provides detailed data on website performance, booking patterns, guest behavior, and revenue optimization. We track key metrics like website traffic, conversion rates, RevPAR, and provide comprehensive reports to help you make data-driven decisions. Basic analytics are included in all packages, with advanced options available.
+
+### Pricing & Payment
+
+**Q: What is your pricing model?**
+A: We offer flexible pricing plans:
+    *   **One-time payment:** For complete ownership of your website.
+    *   **Annual plans:** For ongoing support, hosting, and maintenance.
+    *   **Monthly subscriptions:** With no upfront costs and the flexibility to cancel anytime.
+
+**Q: Do you require an upfront payment?**
+A: No, we do not require any advance payment. You only pay once your website is fully built, tested, and you are 100% satisfied with the result.
+
+**Q: What is the "Pay Only When 100% Satisfied" policy?**
+A: This policy means we begin work on your website without any upfront payment. We deliver the complete, functional website, and you only make the payment once you are fully satisfied with the final product. This includes unlimited revisions during the design phase.
+
+**Q: Are there any hidden costs?**
+A: No, we believe in transparent pricing. All costs are clearly outlined in our proposals, and there are no hidden fees.
+
+**Q: What happens after the first year of service for one-time payment plans?**
+A: For one-time payment plans, an annual maintenance fee applies from the second year onwards (e.g., ₹3,600 for Website Design, ₹4,800 for Website + Booking). This covers hosting, basic maintenance, and updates.
+
+**Q: Can I cancel my monthly subscription anytime?**
+A: Yes, our monthly subscription plans come with no long-term contracts or lock-in periods, allowing you to cancel anytime.
+
+### Process & Delivery
+
+**Q: What is StayTech's website design process?**
+A: Our process involves 7 key steps: Discovery & Strategy, Design Plan Selection, Design & User Experience, Development, Quality Assurance & Testing, Launch & Deployment, and Ongoing Support & Optimization (for relevant plans).
+
+**Q: How long does it take to build a website?**
+A: We aim for fast delivery, with many projects completed within 7 days, especially for template-based designs. The exact timeline depends on the complexity and scope of your project.
+
+**Q: Do you offer revisions?**
+A: Yes, we offer unlimited revisions during the design phase to ensure the final product perfectly aligns with your vision and business goals.
+
+### Technical Aspects
+
+**Q: What technology stack do you use?**
+A: We build our websites using modern technologies including React 18.3.1 with TypeScript for the frontend, Vite 5.4.2 for fast development and optimized builds, and Tailwind CSS 3.4.1 for utility-first styling. We also utilize Lucide React for icons and Google Fonts.
+
+**Q: Are your websites mobile-friendly?**
+A: Yes, all our websites are built with a mobile-first approach, ensuring perfect optimization and a seamless experience across all devices, including smartphones, tablets, and desktops.
+
+**Q: Are your websites SEO optimized?**
+A: Yes, our websites are built with SEO best practices in mind, including semantic HTML structure, meta tags, alt tags for images, and clean URL structures to help your hotel rank higher on search engines.
+
+**Q: Do you provide hosting and maintenance?**
+A: Yes, hosting and maintenance are included in our annual and monthly plans. For one-time payment plans, 1-year hosting and maintenance are included, with an annual fee thereafter.
+
+### Support
+
+**Q: What kind of support do you offer after launch?**
+A: For clients on ongoing service plans, we provide continuous support including regular content updates, performance monitoring, and conversion improvements. For one-time payment clients, annual maintenance covers essential support.
+
+**Q: How can I contact StayTech?**
+A: You can contact us via our website's contact form, by phone at +91 9310495471, or by email at info@staytech.com. We also have a live chat available during business hours.
