@@ -1,6 +1,5 @@
 import React from 'react';
 import { Users, Award, Clock, MapPin } from 'lucide-react';
-import FAQSection from './FAQSection'; // Import the new FAQSection component
 
 const AboutSection: React.FC = () => {
   const stats = [
@@ -343,9 +342,6 @@ const AboutSection: React.FC = () => {
           </p>
         </div>
       </div>
-
-      {/* FAQ Section */}
-      <FAQSection />
     </section>
   );
 };
