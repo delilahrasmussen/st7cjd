@@ -5,17 +5,17 @@ const PricingSection: React.FC = () => {
   const plans = [
     {
       name: 'Website Design',
-      price: '₹18,000',
+      price: '₹19,999',
       period: 'one-time',
-      description: 'Bespoke hotel website design & development',
+      description: 'Custom Hotel Website Design',
       features: [
-        'Custom Hotel Website Design',
         '1-Year Hosting & Maintenance',
-        'Unlimited Updates (Year 1)',
+        'Six Updates (Year 1)',
+        'Unlimited Pages',
         'Mobile Responsive Design',
         'SEO Optimization',
         'SSL Certificate Included',
-        'Year 2+: ₹3,600 annual maintenance',
+        'Year 2+: ₹3,600 hosting, domain and maintenance',
         'Alternative: ₹999/month subscription'
       ],
       popular: false,
@@ -23,7 +23,7 @@ const PricingSection: React.FC = () => {
     },
     {
       name: 'Website + Booking',
-      price: '₹36,000',
+      price: '₹39,999',
       period: 'one-time',
       description: 'Bespoke website design + integrated booking engine',
       features: [
@@ -34,7 +34,7 @@ const PricingSection: React.FC = () => {
         'Commission-free Bookings',
         'Guest Management System',
         'Year 2+: ₹4,800 annual maintenance',
-        'Alternative: ₹1,599/month subscription',
+        'Alternative: ₹1,999/month subscription',
         'No Lock-in Period'
       ],
       popular: true,
