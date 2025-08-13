@@ -86,7 +86,7 @@ const AboutSection: React.FC = () => {
           {/* Right Image */}
           <div className="relative">
             <img
-              src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/src/assets/team-photo.png"
               alt="Team working"
               className="rounded-2xl shadow-2xl"
             />

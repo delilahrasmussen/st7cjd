@@ -7,7 +7,7 @@ const TestimonialsSection: React.FC = () => {
       name: 'Aarav Sharma',
       position: 'Owner, Heritage Palace Hotel',
       location: 'Jaipur, Rajasthan',
-      image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300',
+      image: '/src/assets/testi-male.png',
       rating: 5,
       text: 'StayTech completely transformed our online presence. Having a dedicated project manager made all the difference. The no-advance payment policy gave us complete confidence, and our direct bookings increased by 40% within 3 months!',
       results: '40% increase in direct bookings'
@@ -16,7 +16,7 @@ const TestimonialsSection: React.FC = () => {
       name: 'Rohan Iyer',
       position: 'General Manager, Coastal Resort',
       location: 'Goa',
-      image: 'https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=300',
+      image: '/src/assets/testi-male2.png',
       rating: 5,
       text: 'The team understood our boutique resort perfectly. They presented multiple design concepts and made unlimited revisions until we were completely satisfied. The website reflects our brand beautifully and the booking engine works seamlessly.',
       results: 'Seamless booking experience'
@@ -25,7 +25,7 @@ const TestimonialsSection: React.FC = () => {
       name: 'Priya Nair',
       position: 'Director, Urban Hotel Chain',
       location: 'Mumbai, Maharashtra',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300',
+      image: '/src/assets/test-female.png',
       rating: 5,
       text: 'Professional service from start to finish with consistent quality and punctuality. They delivered exactly what they promised, and the flexible monthly subscription with no lock-in period was perfect for us.',
       results: 'Saved thousands in monthly fees'
@@ -34,7 +34,7 @@ const TestimonialsSection: React.FC = () => {
       name: 'Ananya Rao',
       position: 'Owner, Mountain Retreat',
       location: 'Shimla, Himachal Pradesh',
-      image: 'https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=300',
+      image: '/src/assets/testi-female2.png',
       rating: 5,
       text: 'Being able to see our complete website before payment was amazing. The dedicated project manager guided us through every step. The design perfectly captures the essence of our mountain retreat and guest feedback has been exceptional.',
       results: 'Exceptional guest feedback'
