@@ -211,7 +211,7 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="text-xl md:text-2xl font-light text-gray-600 max-w-3xl mx-auto">
-            Complete digital transformation for hotels
+            Revolutionising Hospitality Technology
           </p>
         </div>
       </div>
